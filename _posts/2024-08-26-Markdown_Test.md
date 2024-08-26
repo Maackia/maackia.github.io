@@ -46,9 +46,11 @@ last_modified_at: 2024-08-26
 
 `---`
 
-### Imags
+### Image
 
-[![DSC00933.webp](/assets/images/DSC00933.webp)]
+`![DSC00933.webp](/assets/images/DSC00933.webp)`
+
+![DSC00933.webp](/assets/images/DSC00933.webp)
 
 ### Code
 
