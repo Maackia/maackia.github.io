@@ -14,33 +14,41 @@ date: 2024-08-26
 last_modified_at: 2024-08-26
 ---
 
-# Head 1
+### H1 ~ H6
 
-`# Head 1`
+```
+# H1
 
-## Head 2
+## H2
 
-`## Head 2`
+### H3
 
-### Head 3
+#### H4
 
-`### Head 3`
+##### H5
 
-#### Head 4
+###### H6
+```
 
-`#### Head 4`
+# H1
 
-##### Head 5
+## H2
 
-`##### Head 5`
+### H3
 
-###### Head 6
+#### H4
 
-`###### Head 6`
+##### H5
+
+###### H6
 
 ---
 
 `---`
+
+### Imags
+
+[![DSC00933.webp](/assets/images/DSC00933.webp)]
 
 ### Code
 
@@ -51,16 +59,6 @@ last_modified_at: 2024-08-26
 ```
 Code block
 ```
-
-### Math
-
-$Math$
-
-### Math Block
-
-$$
-Math block
-$$
 
 ### Quote
 
@@ -89,6 +87,8 @@ $$
 `[Link](https://maackia.github.io)`
 
 ---
+
+### List
 
 1.  순서가 있는 목록
     1. 순서가 있는 목록
@@ -125,21 +125,72 @@ $$
 [Default Button](#link){: .btn .btn--primary }
 [Small Button](#link){: .btn .btn--primary .btn--small}
 
+```
+[Default Button Text](#link){: .btn}
+[Primary Button Text](#link){: .btn .btn--primary}
+[Success Button Text](#link){: .btn .btn--success}
+[Warning Button Text](#link){: .btn .btn--warning}
+[Danger Button Text](#link){: .btn .btn--danger}
+[Info Button Text](#link){: .btn .btn--info}
+[Inverse Button](#link){: .btn .btn--inverse}
+[Light Outline Button](#link){: .btn .btn--light-outline}
+
+[X-Large Button](#link){: .btn .btn--primary .btn--x-large}
+[Large Button](#link){: .btn .btn--primary .btn--large}
+[Default Button](#link){: .btn .btn--primary }
+[Small Button](#link){: .btn .btn--primary .btn--small}
+```
+
 ---
 
 ### Notices
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+**Notice:**  
+기본적인 Notice
+{: .notice}
 
-> [!TIP]
-> Helpful advice for doing things better or more easily.
+**Primary Notice:**  
+중요한 Notice
+{: .notice--primary}
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+**Info Notice:**  
+정보 Notice
+{: .notice--info}
 
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+**Warning Notice:**  
+경고 Notice
+{: .notice--warning}
 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+**Danger Notice:**  
+Danger Notice
+{: .notice--danger}
+
+**Success Notice:**  
+Success Notice
+{: .notice--success}
+
+```
+**Notice:**
+기본적인 Notice
+{: .notice}
+
+**Primary Notice:**
+중요한 Notice
+{: .notice--primary}
+
+**Info Notice:**
+정보 Notice
+{: .notice--info}
+
+**Warning Notice:**
+경고 Notice
+{: .notice--warning}
+
+**Danger Notice:**
+Danger Notice
+{: .notice--danger}
+
+**Success Notice:**
+Success Notice
+{: .notice--success}
+```
